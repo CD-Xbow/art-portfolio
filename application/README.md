@@ -1,5 +1,5 @@
 
-### Welcome to My Art Portfolio Database
+# Welcome to My Art Portfolio Database
   This app helps you organize, view, and search your artworks and creative projects. All data is stored locally in your browser or as static files (no server needed).
   
   Main Features
@@ -11,7 +11,7 @@
     - Responsive and works on all modern browsers
   
 
- # How to Use
+ ## How to Use
   
     
       1. Display: View each artwork in detail (media right, details left). Use Next/Prev buttons to browse.
@@ -55,21 +55,21 @@
     
   
 
-  # Deployment Notes
+  ## Deployment Notes
   
     To use images, videos, or audio, upload them to your site in the referenced folders.
     If using on a new PC or browser, export and import your JSON database to migrate your records.
     Puter.com and most static web hosts support this app. No backend or database server is required.
   
   
-  # Troubleshooting
+  ## Troubleshooting
   
     If you don't see your records, ensure your browser allows localStorage.
     If images/media do not load, check file paths are correct and files are uploaded to the server.
     For further customization, edit the HTML/CSS/JS files directly.
   
 
-  # Credits
+  ## Credits
   
   Created with the help of GitHub Copilot by CD Xbow. 
   
