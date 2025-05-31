@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help - My Art Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #1a1a1a; }
+    h1 { color: #1976d2; }
+    h2 { margin-top: 2em; color: #444; }
+    ul, ol { margin: 1em 0 1em 2em; }
+    code { background: #f0f2fa; padding: 0.1em 0.4em; border-radius: 5px; }
+    .tip { background: #e3f2fd; border-left: 4px solid #1976d2; padding: 1em; margin: 1.2em 0; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Art Portfolio Database</h1>
+  <p>This app helps you organize, view, and search your artworks and creative projects. All data is stored locally in your browser or as static files (no server needed).</p>
+  
+  <h2>Main Features</h2>
+  <ul>
+    <li>Display, add, edit, and delete artworks</li>
+    <li>Store text, images, video, audio, and file links for each work</li>
+    <li>Search and filter your records using any field</li>
+    <li>Import/export your database as JSON for backup or transfer</li>
+    <li>Responsive and works on all modern browsers</li>
+  </ul>
+
+  <h2>How to Use</h2>
+  <ol>
+    <li>
+      <b>Display</b>: View each artwork in detail (media right, details left). Use <b>Next/Prev</b> buttons to browse.
+      <ul>
+        <li>Click an image to enlarge in a popup.</li>
+        <li>Click video/audio to play.</li>
+        <li>Click links to open related pages in a new tab.</li>
+      </ul>
+    </li>
+    <li>
+      <b>Table View</b>: See all records in a sortable table.<br>
+      <b>Edit</b> or <b>Delete</b> any record here.
+    </li>
+    <li>
+      <b>New Record</b>: Add a new artwork. Fill in fields and save. <br>
+      <b>Editing</b>: Accessed from Display or Table View.
+      <ul>
+        <li>Type and Primary Artist fields are dropdowns for consistency.</li>
+        <li>Materials/Collaborators can be comma-separated lists.</li>
+        <li>For media, enter the relative path or URL (e.g., <code>images/myart.jpg</code>).</li>
+        <li>Links: Paste up to three URLs for external pages (gallery, shop, etc.).</li>
+      </ul>
+    </li>
+    <li>
+      <b>Search</b>: Filter works by any field (dropdowns for type/artist). Results appear below the form.
+    </li>
+    <li>
+      <b>Config</b>:
+      <ul>
+        <li>Edit database directly as JSON (advanced).</li>
+        <li>Export your database as a backup (JSON file).</li>
+        <li>Import a JSON file (replaces database).</li>
+        <li>Restore default dummy data or clear everything.</li>
+      </ul>
+      <div class="tip"><b>Tip:</b> Always export a backup before making bulk edits in Config.</div>
+    </li>
+    <li>
+      <b>Help</b>: This screen. You can reopen it any time.
+    </li>
+  </ol>
+
+  <h2>Deployment Notes</h2>
+  <ul>
+    <li>To use images, videos, or audio, upload them to your site in the referenced folders.</li>
+    <li>If using on a new PC or browser, export and import your JSON database to migrate your records.</li>
+    <li>Puter.com and most static web hosts support this app. No backend or database server is required.</li>
+  </ul>
+  
+  <h2>Troubleshooting</h2>
+  <ul>
+    <li>If you don't see your records, ensure your browser allows localStorage.</li>
+    <li>If images/media do not load, check file paths are correct and files are uploaded to the server.</li>
+    <li>For further customization, edit the HTML/CSS/JS files directly.</li>
+  </ul>
+
+  <h2>Credits</h2>
+  <p>Created with the help of GitHub Copilot for CD Xbow. Enjoy your art portfolio!</p>
+</body>
+</html>

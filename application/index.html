@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Art Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-bar">
+      <span class="app-title">My Art Portfolio</span>
+      <nav>
+        <button id="nav-display">Display</button>
+        <button id="nav-table">Table View</button>
+        <button id="nav-new">New Record</button>
+        <button id="nav-search">Search</button>
+        <button id="nav-config">Config</button>
+        <button id="nav-help" onclick="window.open('help.html','_blank');">Help</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="section-display" class="active"></section>
+    <section id="section-table"></section>
+    <section id="section-new"></section>
+    <section id="section-search"></section>
+    <section id="section-config"></section>
+  </main>
+  <div id="modal-bg" class="modal-bg hidden">
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

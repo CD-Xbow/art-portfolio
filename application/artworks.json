@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Sunset Over the Lake",
+    "imagePath": "images/sunset-lake.jpg",
+    "videoPath": "",
+    "dateCommenced": "2024-03-15",
+    "dateFinished": "2024-03-30",
+    "dateDisposal": "",
+    "disposalDestination": "",
+    "price": 400,
+    "description": "An oil painting capturing a vivid sunset over a tranquil lake.",
+    "comment": "Displayed at Spring Art Fair.",
+    "primaryArtist": "Jane Doe",
+    "collaborators": [],
+    "materials": ["Oil paint", "Canvas"],
+    "type": "Painting",
+    "link1": "https://www.example.com/gallery",
+    "link2": "https://www.example.com/more-info",
+    "link3": "https://www.example.com/shop"
+  }
+  // ...other records
+]

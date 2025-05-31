@@ -1,0 +1,29 @@
+.display-form {
+  display: flex;
+  width: 90%;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.display-left, .display-right {
+  padding: 2rem;
+  width: 50%;
+}
+.display-right img, .display-right video, .display-right audio {
+  max-width: 100%;
+  cursor: pointer;
+}
+#popup-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+}
+#popup-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+.hidden { display: none; }
